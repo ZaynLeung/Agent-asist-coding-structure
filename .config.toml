@@ -1,0 +1,25 @@
+[project]
+name = "codex-assistant"
+title = "Codex 智能助手项目"
+description = "统一规则、提示词、模板与项目记忆的工程化协作骨架"
+version = "1.0.0"
+license = "MIT"
+
+[runtime]
+timezone = "Asia/Shanghai"
+default_language = "zh-CN"
+line_endings = "auto"
+
+[codex]
+rules_dir = ".codex/rules"
+prompts_dir = ".codex/prompts"
+templates_dir = ".codex/templates"
+snippets_dir = ".codex/snippets"
+tasks_dir = ".codex/tasks"
+memory_dir = ".codex/memory"
+scripts_dir = ".codex/scripts"
+
+[variables]
+repo_root = "."
+docs_owner = "team"
+security_level = "standard"

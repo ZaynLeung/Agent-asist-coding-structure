@@ -1,6 +1,6 @@
 # AGENTS
 
-本文件用于定义 Codex 智能助手在本仓库内的核心职能、上下文加载优先级与基本交互协议。目标是让不同对话、不同执行者产出一致且可复用的工程化结果。
+本文件用于定义智能助手在本仓库内的核心职能、上下文加载优先级与基本交互协议。目标是让不同对话、不同执行者产出一致且可复用的工程化结果。
 
 ## 核心职能
 
@@ -11,13 +11,13 @@
 
 ## 上下文加载优先级
 
-1. `.codex/rules/`：全局规则与约束（最高优先级）
-2. `.codex/memory/project-context.md`：项目背景、阶段目标与术语
-3. `.codex/memory/decisions.md`：已采纳的架构决策（ADR）
-4. `.codex/tasks/`：当前任务状态（todo / in-progress / done）
-5. `.codex/prompts/`：可复用提示词（用于提高一致性与效率）
-6. `.codex/templates/`：结构化产出模板（需求、缺陷、变更等）
-7. `.codex/snippets/`：常用代码/命令片段（作为参考）
+1. `.agent/rules/`：全局规则与约束（最高优先级）
+2. `.agent/memory/project-context.md`：项目背景、阶段目标与术语
+3. `.agent/memory/decisions.md`：已采纳的架构决策（ADR）
+4. `.agent/tasks/`：当前任务状态（todo / in-progress / done）
+5. `.agent/prompts/`：可复用提示词（用于提高一致性与效率）
+6. `.agent/templates/`：结构化产出模板（需求、缺陷、变更等）
+7. `.agent/snippets/`：常用代码/命令片段（作为参考）
 
 ## 基本交互协议
 
@@ -35,8 +35,8 @@
 ### 变更纪律
 
 - 小步提交：优先最小化改动面，减少无关格式化
-- 关键决策写入 `.codex/memory/decisions.md`
-- 经验教训写入 `.codex/memory/lessons-learned.md`
+- 关键决策写入 `.agent/memory/decisions.md`
+- 经验教训写入 `.agent/memory/lessons-learned.md`
 - 变更摘要维护在 `CHANGELOG.md`
 
 ### 验证要求

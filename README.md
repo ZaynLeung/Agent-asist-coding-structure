@@ -1,9 +1,10 @@
-# 智能助手模板项目
+# 智能助手模板项目 · 机器人学知识库
 
-一个面向工程化协作的 Codex 智能助手项目骨架：提供统一的规则、提示词库、模板库、任务看板与项目记忆，便于在多轮对话中保持一致的产出质量与可追溯性。
+一个面向工程化协作的 Codex 智能助手项目骨架，同时作为**机器人学、灵巧手、移动与操作、强化学习、持续学习与部署后学习**的可追溯知识库。
 
 ## 目录结构
 
+- `knowledge/`：机器人学知识库内容（主题、资源、模板）
 - `.agent/rules/`：全局规则与编码规范
 - `.agent/prompts/`：可复用 Prompt 库（通用/重构/审查）
 - `.agent/templates/`：Bugfix/Feature 等标准化模板
@@ -11,6 +12,10 @@
 - `.agent/tasks/`：Todo/In-Progress/Done 任务看板
 - `.agent/memory/`：ADR/踩坑记录/项目上下文
 - `.agent/scripts/`：初始化与同步脚本
+
+## 知识库入口
+
+详见 [knowledge/README.md](knowledge/README.md)。
 
 ## 使用指南
 

@@ -1,8 +1,8 @@
 [project]
 name = "codex-assistant"
-title = "Codex 智能助手项目"
-description = "统一规则、提示词、模板与项目记忆的工程化协作骨架"
-version = "1.0.0"
+title = "Codex 智能助手项目 · 机器人学知识库"
+description = "统一规则、提示词、模板与项目记忆的工程化协作骨架，并作为机器人学相关知识库"
+version = "1.1.0"
 license = "MIT"
 
 [runtime]

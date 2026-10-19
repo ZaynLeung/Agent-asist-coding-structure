@@ -6,11 +6,12 @@
 
 ### Added
 
-- 初始化 Codex 规则、提示词、模板、代码片段、任务看板与项目记忆目录结构
+- 初始化机器人学知识库框架（`knowledge/` 目录、主题占位、资源与模板）
+- 新增 ADR-0002：将仓库转型为机器人学知识库
 
 ### Changed
 
-- N/A
+- 更新项目定位与 README、project-context、tasks
 
 ### Fixed
 

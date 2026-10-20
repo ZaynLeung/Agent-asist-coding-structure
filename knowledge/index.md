@@ -9,9 +9,11 @@
 5. [04-持续学习](topics/04-continual-learning/)
 6. [05-自迭代](topics/05-self-iteration/)
 7. [06-部署后学习](topics/06-post-deployment-learning/)
+8. [07-工程能力](topics/07-engineering-capabilities/)
 
 ## 关系说明
 
 - 强化学习为多个主题的基础
 - 持续学习 / 自迭代 / 部署后学习形成连续进化能力
 - 灵巧手与移动操作是主要应用场景
+- 工程能力支撑实验与部署全流程

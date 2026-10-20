@@ -9,6 +9,7 @@
 - 持续学习（Continual Learning）
 - 自迭代（Self-iteration）
 - 部署后学习（Post-deployment Learning）
+- 工程能力（Linux、Docker、Git 等）
 
 ## 导航
 

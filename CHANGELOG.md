@@ -9,11 +9,13 @@
 - 初始化机器人学知识库框架（`knowledge/` 目录、主题占位、资源与模板）
 - 新增 ADR-0002：将仓库转型为机器人学知识库
 - 新增工程能力主题（Linux、Docker、Git 基础总结）
+- 新增 Sim 仿真平台与 Sim2Real 方法子主题（针对灵巧手、人形、双臂）
 
 ### Changed
 
 - 更新项目定位与 README、project-context、tasks
 - 更新知识库导航，加入工程能力主题
+- 更新工程能力目录，加入 sim 与 sim2real
 
 ### Fixed
 

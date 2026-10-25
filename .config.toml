@@ -19,6 +19,14 @@ tasks_dir = ".codex/tasks"
 memory_dir = ".codex/memory"
 scripts_dir = ".codex/scripts"
 
+[agents]
+agents_dir = ".agents"
+skills_dir = ".agents/skills"
+tools_dir = ".agents/tools"
+roles_dir = ".agents/agents"
+memories_dir = ".agents/memories"
+rules_dir = ".agents/rules"
+
 [variables]
 repo_root = "."
 docs_owner = "team"

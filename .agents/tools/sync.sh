@@ -9,7 +9,7 @@ ROOT_DIR="$(CDPATH= cd -- "$SCRIPT_DIR/../.." && pwd)"
 
 TARGET_DIR="${1:-}"
 if [ -z "$TARGET_DIR" ]; then
-  die "usage: bash .codex/scripts/sync.sh <target_dir>"
+  die "usage: bash .agents/tools/sync.sh <target_dir>"
 fi
 
 cd "$ROOT_DIR"
@@ -17,6 +17,7 @@ cd "$ROOT_DIR"
 ensure_dir "$TARGET_DIR"
 
 items="
+.agents
 .codex
 README.md
 AGENTS.md

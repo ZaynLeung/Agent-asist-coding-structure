@@ -11,7 +11,24 @@
 
 ## 上下文加载优先级
 
-1. `.agent/rules/`：全局规则与约束（最高优先级）
+1. `.agents/rules/`：全局规则与约束（最高优先级，多 Agent 通用）
+2. `.agents/AGENTS.md`：多 Agent 协作协议与路由约定
+3. `.agents/agents/**/agent.md`：各 Agent 角色职责与输入输出契约
+4. `.agents/skills/**/SKILL.md`：可复用技能/流程定义
+5. `.agents/tools/`：工具脚本（测试、构建、发布等）
+6. `.agents/memories/`：跨任务经验与记忆沉淀
+7. `.codex/rules/`：Codex 规则与注意事项（单 Agent/对话驱动场景）
+8. `.codex/memory/`：Codex 项目记忆（ADR/踩坑/上下文）
+9. `.codex/tasks/`：Codex 任务看板（todo / in-progress / done）
+10. `.codex/prompts/`：Codex Prompt 库
+11. `.codex/templates/`：Codex 模板库
+12. `.codex/snippets/`：Codex 代码/命令片段
+
+## 历史兼容（保留但不推荐）
+
+以下为早期约定的 `.agent/` 路径，保留文本以便迁移参考；新项目统一使用 `.agents/`：
+
+1. `.agent/rules/`：全局规则与约束
 2. `.agent/memory/project-context.md`：项目背景、阶段目标与术语
 3. `.agent/memory/decisions.md`：已采纳的架构决策（ADR）
 4. `.agent/tasks/`：当前任务状态（todo / in-progress / done）
@@ -35,8 +52,8 @@
 ### 变更纪律
 
 - 小步提交：优先最小化改动面，减少无关格式化
-- 关键决策写入 `.agent/memory/decisions.md`
-- 经验教训写入 `.agent/memory/lessons-learned.md`
+- 关键决策写入 `.codex/memory/decisions.md` 或 `.agents/memories/`
+- 经验教训写入 `.codex/memory/lessons-learned.md` 或 `.agents/memories/`
 - 变更摘要维护在 `CHANGELOG.md`
 
 ### 验证要求

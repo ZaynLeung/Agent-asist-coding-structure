@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "root": "knowledge",
+  "generated_by": "knowledge-outline-extract/scan.mjs",
+  "nodes": [
+    {
+      "id": "topics/01-dexterous-hands",
+      "kind": "topic",
+      "title": "01 灵巧手",
+      "path": "knowledge/topics/01-dexterous-hands/README.md",
+      "order": 1
+    },
+    {
+      "id": "topics/02-mobility-manipulation",
+      "kind": "topic",
+      "title": "02 机器人移动与操作模型",
+      "path": "knowledge/topics/02-mobility-manipulation/README.md",
+      "order": 2
+    },
+    {
+      "id": "topics/03-reinforcement-learning",
+      "kind": "topic",
+      "title": "03 强化学习",
+      "path": "knowledge/topics/03-reinforcement-learning/README.md",
+      "order": 3
+    },
+    {
+      "id": "topics/03-reinforcement-learning/on-policy",
+      "kind": "entry",
+      "title": "On-Policy 范式",
+      "path": "knowledge/topics/03-reinforcement-learning/on-policy.md"
+    },
+    {
+      "id": "topics/07-engineering-capabilities",
+      "kind": "topic",
+      "title": "07 工程能力",
+      "path": "knowledge/topics/07-engineering-capabilities/README.md",
+      "order": 7
+    },
+    {
+      "id": "topics/07-engineering-capabilities/sim",
+      "kind": "subtopic",
+      "title": "Sim 仿真平台",
+      "path": "knowledge/topics/07-engineering-capabilities/sim/README.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "topics/01-dexterous-hands",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/02-mobility-manipulation",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/on-policy",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities/sim",
+      "to": "topics/07-engineering-capabilities",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/02-mobility-manipulation",
+      "to": "topics/01-dexterous-hands",
+      "kind": "related-to",
+      "note": "灵巧手与移动操作是主要应用场景"
+    }
+  ]
+}

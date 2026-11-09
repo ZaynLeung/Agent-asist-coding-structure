@@ -2,6 +2,7 @@
 name: skill-creator
 description: 把一类重复任务沉淀为可复用的 skill：先定边界与触发描述，再创建目录 bundle 与 SKILL.md，编写按需加载的 references/scripts/assets，最后按 DSH 规范校验可发现性与加载效果。用户说要生成、编写、修改或检查 skill 时使用。
 whenToUse: 用户要求生成或修改 skill（技能），或需要把某套流程、领域知识、脚本用法固化成可复用技能时。
+user-invocable: true
 ---
 
 # 生成 Skill
@@ -76,6 +77,8 @@ disable-model-invocation: false    # 可选，默认 false；true 则模型不�
 node scripts/validate-skill.mjs <skill-directory>
 ```
 
-## 7. 验证加载
+## 7. 验证加载（模型面 + 用户面）
 
-用 `skill` 工具按 `name` 加载刚写的 skill：能返回正文，说明它已被发现、可解析、可加载。加载失败按 checklist 的失败模式排查，通常是目录层级、frontmatter 语法或 name 不合法。加载成功后，把返回内容与需求逐条对照，不要只确认文件存在。
+1. 模型面：用 `skill` 工具按 `name` 加载刚写的 skill。能返回正文说明它已被发现、可解析、可加载；加载失败按 checklist 的失败模式排查，通常是目录层级、frontmatter 语法或 name 不合法。
+2. 用户面：在 GUI 输入框的 `/` 菜单里确认 `<name>` 出现，并用 `/name` 实际触发一次。模型面能加载而用户面缺失时，按 `references/validation-checklist.md` 的失败模式表排查：会话工作区是否是项目根 → 刷新或新建会话 → 工作区磁盘权限是否让 `skills/list` 拉取失败。
+3. 加载成功后，把返回内容与需求逐条对照，不要只确认文件存在。

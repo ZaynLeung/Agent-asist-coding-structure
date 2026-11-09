@@ -14,6 +14,7 @@
 ## 导航
 
 - [主题地图](index.md)
+- [目录标题图契约](graph/schema.md)
 - [术语表](glossary.md)
 - [资源集合](resources/)
 - [知识条目模板](templates/knowledge-entry.md)

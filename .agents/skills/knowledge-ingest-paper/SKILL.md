@@ -1,3 +1,9 @@
+---
+name: knowledge-ingest-paper
+description: 从论文或项目链接提炼可直接落盘的知识条目骨架：背景、方法、结论、局限、开放问题、核心资源，并给出待补全清单（待验证事实、对比基线、建议落盘路径与同步动作），不确定信息显式标注，输出可粘贴进 knowledge/templates/knowledge-entry.md 完善。用户说“这篇论文入库”“帮我读这篇 paper 整理成知识条目”“把这个项目链接整理进知识库”“先给我一个条目骨架”时使用。
+whenToUse: 用于从外部论文/项目链接先产出骨架与 Action Items，不直接定稿落盘。骨架要正式写入 knowledge/ 用 knowledge-add-entry；主题索引导航用 knowledge-update-index。
+---
+
 # SKILL: knowledge-ingest-paper
 
 ## 目标

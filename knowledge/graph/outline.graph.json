@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "root": "knowledge",
+  "generated_by": "knowledge-graph-db/init",
+  "nodes": [
+    {
+      "id": "topics/00-overview",
+      "kind": "topic",
+      "title": "00 机器人学总览",
+      "path": "knowledge/topics/00-overview/README.md",
+      "order": 0
+    },
+    {
+      "id": "topics/01-dexterous-hands",
+      "kind": "topic",
+      "title": "01 灵巧手",
+      "path": "knowledge/topics/01-dexterous-hands/README.md",
+      "order": 1
+    },
+    {
+      "id": "topics/01-dexterous-hands/force-control-tactile",
+      "kind": "entry",
+      "title": "力控与触觉",
+      "path": "knowledge/topics/01-dexterous-hands/force-control-tactile.md"
+    },
+    {
+      "id": "topics/01-dexterous-hands/perception-for-manipulation",
+      "kind": "entry",
+      "title": "操作中的感知",
+      "path": "knowledge/topics/01-dexterous-hands/perception-for-manipulation.md"
+    },
+    {
+      "id": "topics/01-dexterous-hands/platforms",
+      "kind": "entry",
+      "title": "灵巧手平台",
+      "path": "knowledge/topics/01-dexterous-hands/platforms.md"
+    },
+    {
+      "id": "topics/02-mobility-manipulation",
+      "kind": "topic",
+      "title": "02 机器人移动与操作模型",
+      "path": "knowledge/topics/02-mobility-manipulation/README.md",
+      "order": 2
+    },
+    {
+      "id": "topics/03-reinforcement-learning",
+      "kind": "topic",
+      "title": "03 强化学习",
+      "path": "knowledge/topics/03-reinforcement-learning/README.md",
+      "order": 3
+    },
+    {
+      "id": "topics/03-reinforcement-learning/goal-conditioned-learning",
+      "kind": "entry",
+      "title": "目标条件强化学习",
+      "path": "knowledge/topics/03-reinforcement-learning/goal-conditioned-learning.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/hierarchical-rl",
+      "kind": "entry",
+      "title": "Hierarchical RL",
+      "path": "knowledge/topics/03-reinforcement-learning/hierarchical-rl.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/imitation-learning",
+      "kind": "entry",
+      "title": "仿真学习",
+      "path": "knowledge/topics/03-reinforcement-learning/imitation-learning.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/index",
+      "kind": "entry",
+      "title": "强化学习范式索引（灵巧手操作向）",
+      "path": "knowledge/topics/03-reinforcement-learning/index.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/multiagent-learning",
+      "kind": "entry",
+      "title": "多智能体强化学习",
+      "path": "knowledge/topics/03-reinforcement-learning/multiagent-learning.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/off-policy",
+      "kind": "entry",
+      "title": "Off-Policy 范式",
+      "path": "knowledge/topics/03-reinforcement-learning/off-policy.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/offline-rl",
+      "kind": "entry",
+      "title": "Offline RL",
+      "path": "knowledge/topics/03-reinforcement-learning/offline-rl.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/on-policy",
+      "kind": "entry",
+      "title": "On-Policy 范式",
+      "path": "knowledge/topics/03-reinforcement-learning/on-policy.md"
+    },
+    {
+      "id": "topics/03-reinforcement-learning/residual-rl",
+      "kind": "entry",
+      "title": "Residual / Hybrid RL",
+      "path": "knowledge/topics/03-reinforcement-learning/residual-rl.md"
+    },
+    {
+      "id": "topics/04-continual-learning",
+      "kind": "topic",
+      "title": "04 持续学习",
+      "path": "knowledge/topics/04-continual-learning/README.md",
+      "order": 4
+    },
+    {
+      "id": "topics/05-self-iteration",
+      "kind": "topic",
+      "title": "05 自迭代",
+      "path": "knowledge/topics/05-self-iteration/README.md",
+      "order": 5
+    },
+    {
+      "id": "topics/06-post-deployment-learning",
+      "kind": "topic",
+      "title": "06 部署后学习",
+      "path": "knowledge/topics/06-post-deployment-learning/README.md",
+      "order": 6
+    },
+    {
+      "id": "topics/07-engineering-capabilities",
+      "kind": "topic",
+      "title": "07 工程能力",
+      "path": "knowledge/topics/07-engineering-capabilities/README.md",
+      "order": 7
+    },
+    {
+      "id": "topics/07-engineering-capabilities/docker",
+      "kind": "entry",
+      "title": "Docker",
+      "path": "knowledge/topics/07-engineering-capabilities/docker.md"
+    },
+    {
+      "id": "topics/07-engineering-capabilities/git",
+      "kind": "entry",
+      "title": "Git",
+      "path": "knowledge/topics/07-engineering-capabilities/git.md"
+    },
+    {
+      "id": "topics/07-engineering-capabilities/linux",
+      "kind": "entry",
+      "title": "Linux",
+      "path": "knowledge/topics/07-engineering-capabilities/linux.md"
+    },
+    {
+      "id": "topics/07-engineering-capabilities/sim",
+      "kind": "subtopic",
+      "title": "Sim 仿真平台",
+      "path": "knowledge/topics/07-engineering-capabilities/sim/README.md"
+    },
+    {
+      "id": "topics/07-engineering-capabilities/sim2real",
+      "kind": "subtopic",
+      "title": "Sim2Real 方法",
+      "path": "knowledge/topics/07-engineering-capabilities/sim2real/README.md"
+    },
+    {
+      "id": "topics/08-teleoperation-retargeting",
+      "kind": "topic",
+      "title": "08 遥操作与运动重定向",
+      "path": "knowledge/topics/08-teleoperation-retargeting/README.md",
+      "order": 8
+    },
+    {
+      "id": "topics/08-teleoperation-retargeting/learning-based-method",
+      "kind": "entry",
+      "title": "学习式重定向方法",
+      "path": "knowledge/topics/08-teleoperation-retargeting/learning-based-method.md"
+    },
+    {
+      "id": "topics/08-teleoperation-retargeting/motion-retargeting",
+      "kind": "entry",
+      "title": "运动重定向",
+      "path": "knowledge/topics/08-teleoperation-retargeting/motion-retargeting.md"
+    },
+    {
+      "id": "topics/09-control-foundations",
+      "kind": "topic",
+      "title": "09 控制基础",
+      "path": "knowledge/topics/09-control-foundations/README.md",
+      "order": 9
+    },
+    {
+      "id": "topics/09-control-foundations/dynamics-optimal-control",
+      "kind": "entry",
+      "title": "动力学与最优控制",
+      "path": "knowledge/topics/09-control-foundations/dynamics-optimal-control.md"
+    },
+    {
+      "id": "topics/09-control-foundations/kinematics-ik",
+      "kind": "entry",
+      "title": "运动学与逆解方法",
+      "path": "knowledge/topics/09-control-foundations/kinematics-ik.md"
+    },
+    {
+      "id": "topics/09-control-foundations/mpc",
+      "kind": "entry",
+      "title": "模型预测控制（MPC）",
+      "path": "knowledge/topics/09-control-foundations/mpc.md"
+    }
+  ],
+  "edges": [
+    {
+      "from": "topics/00-overview",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/01-dexterous-hands",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/01-dexterous-hands",
+      "to": "topics/02-mobility-manipulation",
+      "kind": "related-to",
+      "note": "灵巧手与移动操作是主要应用场景"
+    },
+    {
+      "from": "topics/01-dexterous-hands/force-control-tactile",
+      "to": "topics/01-dexterous-hands",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/01-dexterous-hands/perception-for-manipulation",
+      "to": "topics/01-dexterous-hands",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/01-dexterous-hands/platforms",
+      "to": "topics/01-dexterous-hands",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/02-mobility-manipulation",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/goal-conditioned-learning",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/hierarchical-rl",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/imitation-learning",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/index",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/multiagent-learning",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/off-policy",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/offline-rl",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/on-policy",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/03-reinforcement-learning/residual-rl",
+      "to": "topics/03-reinforcement-learning",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/04-continual-learning",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/05-self-iteration",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/06-post-deployment-learning",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities/docker",
+      "to": "topics/07-engineering-capabilities",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities/git",
+      "to": "topics/07-engineering-capabilities",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities/linux",
+      "to": "topics/07-engineering-capabilities",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities/sim",
+      "to": "topics/07-engineering-capabilities",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/07-engineering-capabilities/sim2real",
+      "to": "topics/07-engineering-capabilities",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/08-teleoperation-retargeting",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/08-teleoperation-retargeting/learning-based-method",
+      "to": "topics/08-teleoperation-retargeting",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/08-teleoperation-retargeting/motion-retargeting",
+      "to": "topics/08-teleoperation-retargeting",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/09-control-foundations",
+      "to": "root",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/09-control-foundations/dynamics-optimal-control",
+      "to": "topics/09-control-foundations",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/09-control-foundations/kinematics-ik",
+      "to": "topics/09-control-foundations",
+      "kind": "belongs-to"
+    },
+    {
+      "from": "topics/09-control-foundations/mpc",
+      "to": "topics/09-control-foundations",
+      "kind": "belongs-to"
+    }
+  ]
+}

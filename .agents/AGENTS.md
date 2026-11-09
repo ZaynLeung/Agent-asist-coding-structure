@@ -39,7 +39,9 @@
 ### 路由规则（Routing）
 
 - 需要实现/修复：优先交给 `agents/coder`
-- 知识库相关（新增条目/补全条目/维护索引/审计）：优先交给 `agents/librarian`
+- 知识库内容（新增条目/补全条目/维护索引/审计）：优先交给 `agents/librarian`，由 `skills/knowledge-*` 内容类 skill 执行
+- 知识库结构与目录标题图（资料抽取、图数据入库、看图）：由 `skills/knowledge-outline-extract` / `knowledge-graph-db` / `knowledge-graph-viz` 执行，契约见 `knowledge/graph/schema.md`
+- 多步骤知识库任务或需要分工：先走 `skills/knowledge-lead`（先出计划并确认，再编排与验收）
 - 需要质量把关：优先交给 `skills/code-review`
 - 需要验证闭环：优先使用 `tools/run-tests.sh` 或接入 CI
 - 需要沉淀经验：补充到 `memories/`（避免只存在于对话历史）

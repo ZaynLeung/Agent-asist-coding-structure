@@ -36,6 +36,7 @@
 
 - [ ] 有 node 时跑过 `node scripts/validate-skill.mjs <skill-directory>`，无 error。
 - [ ] 用 `skill` 工具按 `name` 加载成功，返回内容与需求逐条对得上。
+- [ ] GUI `/` 菜单里能看到 `<name>`，且 `/name` 能实际注入正文（模型面与用户面是两套列表，必须分别验证）。
 - [ ] 至少模拟一次真实请求，确认模型加载该 skill 后能按步骤走通。
 
 ## 失败模式对照
@@ -46,6 +47,8 @@
 | skill 不出现 | frontmatter 解析失败（引号、tab、布尔拼写） | 按 `references/frontmatter.md` 逐项查 |
 | skill 不出现 | 已开启的会话是旧目录缓存 | 新建会话 / 切 preset / 重连后重试 |
 | 同名只生效一个 | 来源优先级被更高层覆盖 | 改名或用更高优先级来源更新 |
+| 模型能加载但 `/` 菜单里没有 | 该会话工作区不是 skill 所在扫描根（project 级 skill 只对项目根可见） | 在项目根重开会话，或把 skill 放到 user 级扫描根 |
+| 模型能加载但 `/` 菜单里没有，且菜单空白无提示 | 输入框拉取 `skills/list` 失败，该菜单组被静默丢弃 | 刷新页面/新建会话；再排查工作区磁盘权限（Windows 上权限异常会让 DSH 授权写入失败，拖垮依赖会话的 RPC） |
 | 加载后内容被截断 | SKILL.md 超过 8 KB | 拆分到 references |
 | 加载了但没按步骤做 | 正文没写动作或没有完成信号 | 改成祈使句 + 编号步骤 + 预期结果 |
 | 路由到错误 skill | description 太泛或近义词重叠 | 加具体触发词，或在 whenToUse 写排除条件 |

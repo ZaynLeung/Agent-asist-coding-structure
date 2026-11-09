@@ -14,6 +14,7 @@
 - 任务（Tasks）：基于看板的进度管理
 - 记忆（Memory）：ADR、踩坑与阶段目标沉淀
 - 知识库（Knowledge）：领域主题笔记、资源与术语
+- 目录标题图（Outline Graph）：只管理主题/子目录/条目标题的层级与关系，正文内容留在 `knowledge/` 正文层；契约见 `knowledge/graph/schema.md`
 
 ## 当前阶段目标
 

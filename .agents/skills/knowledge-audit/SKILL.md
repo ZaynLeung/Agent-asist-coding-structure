@@ -1,3 +1,9 @@
+---
+name: knowledge-audit
+description: 对 knowledge/ 做一致性与可维护性审计：检查主题层级与目录命名、入口 README/索引覆盖、条目模板合规（背景/关键概念/核心资源/开放问题/元数据）、站内相对链接与外链格式、同义重复与孤儿文件，输出必改项、可选优化和按优先级排序的修复清单。用户说“审计一下知识库”“知识库体检”“检查条目是否合规”“有没有失效链接或重复条目”时使用。
+whenToUse: 用于只读体检并产出修复计划，可聚焦结构、链接、模板合规或全量。真正增改条目用 knowledge-add-entry，调整主题地图用 knowledge-update-index。
+---
+
 # SKILL: knowledge-audit
 
 ## 目标

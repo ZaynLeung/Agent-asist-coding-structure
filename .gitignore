@@ -206,3 +206,9 @@ Thumbs.db
 # Codex/AI caches
 .codex/cache/
 .codex/tmp/
+
+# DSH 本地产物（权限诊断报告与本机环境无关产物）
+.acl-recovery/
+
+# 目录标题图生成产物（由 knowledge-graph-viz 的 render.mjs 重新生成）
+knowledge/graph/outline.html
